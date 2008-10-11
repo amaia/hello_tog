@@ -6,6 +6,9 @@ ActionController::Routing::Routes.draw do |map|
   map.routes_from_plugin 'tog_user'
 
   map.routes_from_plugin 'tog_core'
+  
+  map.routes_from_plugin 'tog_vault'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
 
