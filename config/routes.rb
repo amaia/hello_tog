@@ -11,6 +11,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.routes_from_plugin 'tog_conversatio'
 
+  map.routes_from_plugin 'tog_picto'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
 
